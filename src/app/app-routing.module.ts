@@ -6,13 +6,14 @@ import {PostsComponent} from './posts/posts.component';
 import {PostComponent} from './post/post.component';
 import {AboutExtraComponent} from './about-extra/about-extra.component';
 import {ErrorPageComponent} from './error-page/error-page.component';
+import {AuthGuard} from './auth.guard';
 
 const routes: Routes = [
     {path: '', component: HomeComponent},
     {path: 'about', component: AboutComponent, children: [
             {path: 'extra', component: AboutExtraComponent}
         ]},
-    {path: 'posts', component: PostsComponent},
+    {path: 'posts', component: PostsComponent, canActivate: [AuthGuard]},  // TK: Added protection and passing our Guard class
     {path: 'posts/:id', component: PostComponent},
     {path: 'error', component: ErrorPageComponent}, // TK: this component handles showing the app error page
     {path: '**', redirectTo: '/error'} // TK: path '**' must always be in the end. It handles all unregistered/unknown routes
