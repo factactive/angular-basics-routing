@@ -19,10 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="369324ba-d661-4806-a4c8-ef4928475c89" name="Default Changelist" comment="added comment to router module">
+    <list default="true" id="369324ba-d661-4806-a4c8-ef4928475c89" name="Default Changelist" comment="finished initial routing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/about-extra/about-extra.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about-extra/about-extra.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/about/about.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/about.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/post/post.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/post/post.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/post/post.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/post/post.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/posts.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/posts.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/posts/posts.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/posts/posts.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/posts/posts.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/posts/posts.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +118,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603125835189</updated>
       <workItem from="1603125836986" duration="3567000" />
-      <workItem from="1603129560250" duration="1950000" />
+      <workItem from="1603129560250" duration="8128000" />
     </task>
     <task id="LOCAL-00001" summary="added app router module">
       <created>1603127588875</created>
@@ -125,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603129805484</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finished initial routing">
+      <created>1603131590625</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603131590625</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,9 +164,18 @@
     </ignored-roots>
     <MESSAGE value="added app router module" />
     <MESSAGE value="added comment to router module" />
-    <option name="LAST_COMMIT_MESSAGE" value="added comment to router module" />
+    <MESSAGE value="finished initial routing" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished initial routing" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="705" y="343" key="#Notifications" timestamp="1603131621728">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="705" y="343" key="#Notifications/-582.-1080.1920.1040/1338.-1080.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603131621728" />
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1603135636495">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/-582.-1080.1920.1040/1338.-1080.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603135636495" />
     <state x="805" y="417" key="Github.ShareDialog" timestamp="1603125907290">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -159,30 +184,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="782" y="224" key="Github.UntrackedFilesDialog/-582.-1080.1920.1040/1338.-1080.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603125923379" />
-    <state width="1921" height="984" key="GridCell.Tab.0.bottom" timestamp="1603129426687">
+    <state width="1921" height="984" key="GridCell.Tab.0.bottom" timestamp="1603136726543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="984" key="GridCell.Tab.0.bottom/-582.-1080.1920.1040/1338.-1080.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603129426687" />
-    <state width="1921" height="984" key="GridCell.Tab.0.center" timestamp="1603129426687">
+    <state width="1921" height="984" key="GridCell.Tab.0.bottom/-582.-1080.1920.1040/1338.-1080.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603136726543" />
+    <state width="1921" height="984" key="GridCell.Tab.0.center" timestamp="1603136726543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="984" key="GridCell.Tab.0.center/-582.-1080.1920.1040/1338.-1080.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603129426687" />
-    <state width="1921" height="984" key="GridCell.Tab.0.left" timestamp="1603129426687">
+    <state width="1921" height="984" key="GridCell.Tab.0.center/-582.-1080.1920.1040/1338.-1080.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603136726543" />
+    <state width="1921" height="984" key="GridCell.Tab.0.left" timestamp="1603136726543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="984" key="GridCell.Tab.0.left/-582.-1080.1920.1040/1338.-1080.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603129426687" />
-    <state width="1921" height="984" key="GridCell.Tab.0.right" timestamp="1603129426687">
+    <state width="1921" height="984" key="GridCell.Tab.0.left/-582.-1080.1920.1040/1338.-1080.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603136726543" />
+    <state width="1921" height="984" key="GridCell.Tab.0.right" timestamp="1603136726543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="984" key="GridCell.Tab.0.right/-582.-1080.1920.1040/1338.-1080.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603129426687" />
+    <state width="1921" height="984" key="GridCell.Tab.0.right/-582.-1080.1920.1040/1338.-1080.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603136726543" />
     <state x="461" y="164" width="1317" height="791" key="SettingsEditor" timestamp="1603129602529">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" width="1317" height="791" key="SettingsEditor/-582.-1080.1920.1040/1338.-1080.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603129602529" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1603129865230">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1603131598482">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/-582.-1080.1920.1040/1338.-1080.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603129865230" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/-582.-1080.1920.1040/1338.-1080.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603131598482" />
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603127403551">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
