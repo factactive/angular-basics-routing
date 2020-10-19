@@ -16,13 +16,12 @@ export class PostsComponent implements OnInit{
 
   ngOnInit(): void {
     this.route.queryParams.subscribe(params => {
-      console.log('============> params:', params);
       this.showIds = !!params.showIds;  // TK: !params is casting string to boolean and second "!" is not. This is a shortcut!
     });
 
-    this.route.fragment.subscribe(fragment => {
-      console.log('=========> This is a fragment:', fragment);  // TK: getting fragment programmatically
-    });
+    // this.route.fragment.subscribe(fragment => {
+    //   // console.log('=========> This is a fragment:', fragment);  // TK: getting fragment programmatically
+    // });
   }
 
   showIdsProgrammatically() {

@@ -19,10 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="369324ba-d661-4806-a4c8-ef4928475c89" name="Default Changelist" comment="added Guards for routes">
+    <list default="true" id="369324ba-d661-4806-a4c8-ef4928475c89" name="Default Changelist" comment="added Resolvers. Finished Routers section of the course">
+      <change afterPath="$PROJECT_DIR$/src/app/post.resolver.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/auth.guard.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/auth.guard.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/post/post.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/post/post.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/posts.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/posts.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/posts/posts.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/posts/posts.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +88,16 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -97,6 +110,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.lint" />
       </list>
     </recent_temporary>
@@ -110,7 +124,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603125835189</updated>
       <workItem from="1603125836986" duration="3567000" />
-      <workItem from="1603129560250" duration="13290000" />
+      <workItem from="1603129560250" duration="15132000" />
     </task>
     <task id="LOCAL-00001" summary="added app router module">
       <created>1603127588875</created>
@@ -154,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603142616000</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added Guards for child routes">
+      <created>1603143175417</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603143175417</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +203,9 @@
     <MESSAGE value="finished routing up to fragments" />
     <MESSAGE value="added exception handling for unknown pages" />
     <MESSAGE value="added Guards for routes" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Guards for routes" />
+    <MESSAGE value="added Guards for child routes" />
+    <MESSAGE value="added Resolvers. Finished Routers section of the course" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Resolvers. Finished Routers section of the course" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -190,10 +213,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="705" y="343" key="#Notifications/-582.-1080.1920.1040/1338.-1080.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603131621728" />
-    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1603142687374">
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1603143606261">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/-582.-1080.1920.1040/1338.-1080.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603142687374" />
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/-582.-1080.1920.1040/1338.-1080.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603143606261" />
     <state x="805" y="417" key="Github.ShareDialog" timestamp="1603125907290">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -202,30 +225,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="782" y="224" key="Github.UntrackedFilesDialog/-582.-1080.1920.1040/1338.-1080.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603125923379" />
-    <state width="1921" height="984" key="GridCell.Tab.0.bottom" timestamp="1603142956687">
+    <state width="1921" height="984" key="GridCell.Tab.0.bottom" timestamp="1603143340406">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="984" key="GridCell.Tab.0.bottom/-582.-1080.1920.1040/1338.-1080.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603142956687" />
-    <state width="1921" height="984" key="GridCell.Tab.0.center" timestamp="1603142956687">
+    <state width="1921" height="984" key="GridCell.Tab.0.bottom/-582.-1080.1920.1040/1338.-1080.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603143340406" />
+    <state width="1921" height="984" key="GridCell.Tab.0.center" timestamp="1603143340406">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="984" key="GridCell.Tab.0.center/-582.-1080.1920.1040/1338.-1080.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603142956687" />
-    <state width="1921" height="984" key="GridCell.Tab.0.left" timestamp="1603142956687">
+    <state width="1921" height="984" key="GridCell.Tab.0.center/-582.-1080.1920.1040/1338.-1080.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603143340406" />
+    <state width="1921" height="984" key="GridCell.Tab.0.left" timestamp="1603143340406">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="984" key="GridCell.Tab.0.left/-582.-1080.1920.1040/1338.-1080.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603142956687" />
-    <state width="1921" height="984" key="GridCell.Tab.0.right" timestamp="1603142956687">
+    <state width="1921" height="984" key="GridCell.Tab.0.left/-582.-1080.1920.1040/1338.-1080.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603143340406" />
+    <state width="1921" height="984" key="GridCell.Tab.0.right" timestamp="1603143340406">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="984" key="GridCell.Tab.0.right/-582.-1080.1920.1040/1338.-1080.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603142956687" />
+    <state width="1921" height="984" key="GridCell.Tab.0.right/-582.-1080.1920.1040/1338.-1080.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603143340406" />
     <state x="461" y="164" width="1317" height="791" key="SettingsEditor" timestamp="1603129602529">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" width="1317" height="791" key="SettingsEditor/-582.-1080.1920.1040/1338.-1080.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603129602529" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1603142623057">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1603144888584">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/-582.-1080.1920.1040/1338.-1080.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603142623057" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/-582.-1080.1920.1040/1338.-1080.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603144888584" />
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603127403551">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

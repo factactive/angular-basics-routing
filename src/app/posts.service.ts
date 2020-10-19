@@ -1,6 +1,6 @@
 import {Injectable} from '@angular/core';
 
-export interface Post {
+export interface IPost {
   title: string;
   text: string;
   id: number;
@@ -8,7 +8,7 @@ export interface Post {
 
 @Injectable({providedIn: 'root'})
 export class PostsService {
-  posts: Post[] = [
+  posts: IPost[] = [
     {title: 'Post 1a', text: 'Sample text for post 1a', id: 11},
     {title: 'Post 2b', text: 'Sample text for post 2b', id: 22},
     {title: 'Post 3c', text: 'Sample text for post 3c', id: 33},

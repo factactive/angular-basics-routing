@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
-import {ActivatedRoute, Params, Router} from '@angular/router';
-import {Post, PostsService} from '../posts.service';
+import {ActivatedRoute, Router} from '@angular/router';
+import {IPost} from '../posts.service';
 
 @Component({
   selector: 'app-post',
@@ -9,19 +9,28 @@ import {Post, PostsService} from '../posts.service';
 })
 export class PostComponent implements OnInit{
 
-  post: Post;
+  post: IPost;
 
-  constructor(private route: ActivatedRoute,
-              private router: Router,
-              private postsService: PostsService) {
+  constructor(
+      private route: ActivatedRoute,
+      private router: Router
+      // private postsService: PostsService
+  ) {
   }
 
   ngOnInit(): void {
-    this.route.params
-        .subscribe((params: Params) => {
-          console.log('Params ==>  ', params);
-          this.post = this.postsService.getById(+params.id);   // TK: added "+" in front of params.id to convert to integer
-        });
+
+    this.route.data.subscribe(data => {
+        this.post = data.post;
+    });
+
+    // this.post = this.route.snapshot.data.post;  // TK: this is not a correct way to use resolve
+
+    // this.route.params
+    //     .subscribe((params: Params) => {
+    //       console.log('Params ==>  ', params);
+    //       this.post = this.postsService.getById(+params.id);   // TK: added "+" in front of params.id to convert to integer
+    //     });
   }
 
   loadPost() {
