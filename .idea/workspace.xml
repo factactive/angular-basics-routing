@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="369324ba-d661-4806-a4c8-ef4928475c89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
+    <list default="true" id="369324ba-d661-4806-a4c8-ef4928475c89" name="Default Changelist" comment="added app router module">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/posts/posts.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/posts/posts.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,12 +30,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-    <property name="ts.external.directory.path" value="C:\Work\Dev\angular-basics-routing\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Work\Dev\angular-basics-udemy\angular-basics-routing\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="npm.Angular CLI Server">
@@ -65,6 +68,21 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.lint" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -74,8 +92,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603125835189</updated>
-      <workItem from="1603125836986" duration="1560000" />
+      <workItem from="1603125836986" duration="3567000" />
+      <workItem from="1603129560250" duration="113000" />
     </task>
+    <task id="LOCAL-00001" summary="added app router module">
+      <created>1603127588875</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603127588875</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,6 +112,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="added app router module" />
+    <option name="LAST_COMMIT_MESSAGE" value="added app router module" />
   </component>
   <component name="WindowStateProjectService">
     <state x="805" y="417" key="Github.ShareDialog" timestamp="1603125907290">
@@ -95,10 +124,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="782" y="224" key="Github.UntrackedFilesDialog/-582.-1080.1920.1040/1338.-1080.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603125923379" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1603125877912">
+    <state width="1921" height="984" key="GridCell.Tab.0.bottom" timestamp="1603129426687">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/-582.-1080.1920.1040/1338.-1080.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603125877912" />
+    <state width="1921" height="984" key="GridCell.Tab.0.bottom/-582.-1080.1920.1040/1338.-1080.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603129426687" />
+    <state width="1921" height="984" key="GridCell.Tab.0.center" timestamp="1603129426687">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="984" key="GridCell.Tab.0.center/-582.-1080.1920.1040/1338.-1080.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603129426687" />
+    <state width="1921" height="984" key="GridCell.Tab.0.left" timestamp="1603129426687">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="984" key="GridCell.Tab.0.left/-582.-1080.1920.1040/1338.-1080.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603129426687" />
+    <state width="1921" height="984" key="GridCell.Tab.0.right" timestamp="1603129426687">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="984" key="GridCell.Tab.0.right/-582.-1080.1920.1040/1338.-1080.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603129426687" />
+    <state x="461" y="164" width="1317" height="791" key="SettingsEditor" timestamp="1603129602529">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" width="1317" height="791" key="SettingsEditor/-582.-1080.1920.1040/1338.-1080.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603129602529" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1603127600485">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/-582.-1080.1920.1040/1338.-1080.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603127600485" />
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603127403551">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
